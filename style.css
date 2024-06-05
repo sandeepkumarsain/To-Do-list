@@ -1,0 +1,68 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        #toDoContainer {
+            background: #fff;
+            margin: 50px auto;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        #toDoContainer h2 {
+            margin-bottom: 20px;
+        }
+
+        #inputText {
+            width: calc(100% - 30px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #addbutton {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #addbutton:hover {
+            background: #218838;
+        }
+
+        .task {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            background: #f9f9f9;
+        }
+
+        .task span {
+            flex-grow: 1;
+        }
+
+        .task button {
+            background: none;
+            border: none;
+            color: #dc3545;
+            cursor: pointer;
+        }
+
+        .task button:hover {
+            color: #c82333;
+        }
+    </style>
